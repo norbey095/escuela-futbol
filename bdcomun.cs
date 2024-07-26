@@ -12,7 +12,7 @@ namespace trabajo_final
         public static MySqlConnection
             obtenerconexion()
         {
-            MySqlConnection conectar = new MySqlConnection("server=localhost;database=escuela;user=root;password=;");
+            MySqlConnection conectar = new MySqlConnection("server=localhost;database=escuela;user=root;password=root;");
             conectar.Open();
             return conectar;
         }
